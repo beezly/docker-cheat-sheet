@@ -18,6 +18,11 @@ docker run -ti ubuntu bash
 docker run -ti -v $(pwd):/work ubuntu bash
 ```
 
+### Run another command inside an existing container (get container id or name from "docker ps")
+```
+docker exec -ti <container-id> bash
+```
+
 ### Run a specific verison of an OS
 ```
 docker run -ti ubuntu:13.10 bash
