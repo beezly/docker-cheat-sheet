@@ -18,12 +18,12 @@ docker run -ti ubuntu bash
 docker run -ti -v $(pwd):/work ubuntu bash
 ```
 
-33# Run a specific verison of an OS
+### Run a specific verison of an OS
 ```
 docker run -ti ubuntu:13.10 bash
 ```
 
-#33 Map ports 
+### Map ports 
 ```
 docker run -p 1234:80 nginx 
 ```
